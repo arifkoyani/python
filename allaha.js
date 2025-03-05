@@ -10,3 +10,6 @@
 // }
 // const myname = new Name("arif hussain");
 // myname.showName();
+
+// numbers=[44,4,45,4,45,4,45,45,45,45]
+// console.log(numbers.indexOf("48"))

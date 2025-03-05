@@ -256,3 +256,276 @@
 # else:
 #     print("this is noT even")
     
+# x=int(input("enter eny number"))
+# if x>40:
+#     print("x is greater then 40 ")
+# elif x>4:
+#     print("x is greater then 4 ")
+# elif x>8:
+#     print(" x is greater then 8")
+# else:
+#         print("none")
+
+
+# number_one=int(input("enter any number A"))
+# number_two=int(input("enter any number B"))
+# operator=input("enter the operation operator")
+
+# if operator=="+":
+#     print("your sum is :",number_one+number_two)
+# elif operator=="/":
+#     print("your division is :",number_one//number_two)
+# elif operator == "*":
+#     print("your multiply is :",number_one*number_two)
+# elif operator=="-":
+#     print("your minus of numbers is ",number_one-number_two)
+# else :
+# #     print("you enter invalid operator")
+# names=["arif","hussain","allah","khan","baqir","mobile","laptop"]
+# print(len(names))
+
+# for i in range(0,7,2):
+#       # break when it reach to index four it will break including 4
+#         # continue it skip the number 4 when it touch
+#         # continue
+#         print(names[i])
+#         # if names[i]=="allah":
+#         # break
+
+
+
+
+
+# for i in range(1,11):
+#      print(5,"x",i,"=",i*5)
+
+# class Name:
+#      def __init__(self,name,lastname):
+#           self.name=name
+#           self.lastname=lastname
+#      def show_name(self):
+#           print("this is your name :",self.name)
+#           print("this is your name :",self.lastname) 
+
+#      def update_names(self,name=None,lastname=None):
+#           if name:
+#                self.name=name
+#           if lastname:
+#                self.lastname=lastname
+#           print("name update successfully")
+
+# names=Name("arif","hussain")
+
+# names.show_name()
+# names.update_names(lastname="karim")
+# names.show_name()
+
+
+# names = []
+# for i in range(8):          
+#     if i ==0:
+#         names.append("") 
+#     name = input("Enter Name:    ")
+#     names.append(name)
+# print(names)
+
+
+
+
+# for i in range(11,0,-1):
+#      print(i)
+
+
+# x=10
+# while x>=0:
+#      print("this is value ",x)
+#      x=x-1
+
+
+# name="Alihusssains5"
+# print(name.isalnum())
+
+
+# print(ord("a")) tel us the assci value of a cjaracter
+# print(char("60")) take the character assci value /
+# name="arif"
+# age=77
+# city="hunza"
+# my_line=f"my name is :{name} and my age is {age} and my residential is {city}"
+# print(my_line)
+
+
+
+# names=["arifa","hussain","aliza","khan",[4,5,4,4,4,6]]
+# print(names[0],names[0][0:4])
+
+
+
+
+
+
+
+# x=40
+# while x>=0:
+#     print("this is while") 
+#     x=x-1
+
+
+# names=["arif","hussain","karim","rahathussain"]
+# for name in names :
+#     print(name)
+
+
+
+# name="hussan"
+# age=55
+# city="huzan"
+# f_string=f"this is my {name} and my age is : {age} and i live in : {city}"
+# print(f_string)
+
+
+# class Details:
+#     def __init__(self,father_name,mother_name,brother_name):
+#         self.father_name=father_name
+#         self.mother_name=mother_name
+#         self.brother_name=brother_name
+
+#     def show_all_names(self):
+#         print(f"this is father name :{self.father_name} and this is mother name : {self.mother_name} and this is brother name {self.brother_name}")
+
+#     def update_names(self,father_name=None,mother_name=None, brother_name=None):
+#         if father_name:
+#             self.father_name=father_name
+#             print("father name update successfully")
+#         if mother_name:
+#             self.mother_name=mother_name
+#             print("mother name update successfully")
+#         if brother_name:
+#             self.brother_name=brother_name
+#             print("brother name update successfully")
+#         else :
+#             print("your enter empty name here ")
+
+# myhome=Details("Musa khan","Bano","Akash")
+# myhome.show_all_names()
+# myhome.update_names(brother_name="rahat hussain")
+# myhome.show_all_names()
+
+
+# mydick={"name":"hussain","degree":"fsc","age":55}
+# tuples=("arif", "huaain" , "khan", 88, "hunza",{"name":"baqir hussain","class":"fsc","age":44,"marks":[44,55,66,7,777,999]})
+# print(tuples[5]["marks"][5])
+# names=["arif","hussain","khan","akash","biology","divison floor operator //"]
+# names.append("karim")
+# names.insert(4,"karim")
+# print(names)
+# print(eval("8+5"))
+
+
+# for i in range(40):
+#     if i==24:
+#          break
+#     print("this is break at :",i)
+
+# numbers=[45,46,47,4,77,99,0]
+# mynumbers=sorted(numbers)
+# print(numbers)
+# print(mynumbers)
+
+
+
+
+# numbers=[44,45,"arif",45,99]
+# number=[44,45,"arif",45,"hussain"]
+
+
+# for i,j in zip(numbers,number):
+#     print("items of numbers are :",i)
+#     print("items of number are :",j)
+
+
+import math
+# names =("arif","hussain")
+# mynames =("arifa","hussaina")
+# for i,k in zip(names,names):
+#     print(i,k)
+
+
+# print(math.ceil(50.4))
+# print(math.factorial(5))
+# print(math.floor(45.9))
+
+# araray=[4,45,45,45,45,5,6,4,55,456,5,675,67,568,576,567]
+# allsum=math.fsum(araray)
+# print(math.floor(allsum))
+
+# num=49
+# print(math.floor(math.sqrt(num)))
+
+# from ali import *
+
+# print(sum(55,66))
+# print(multiply(5,6))
+
+
+# sentence="this is my name"
+# l=sentence.split()
+# print(l)
+
+
+# myDict={"name":"hussain","age":99,"marks":{"bio":88,"english":69,"math":78,"urdu":40},"university":"kiu","gender":"male","nation":"pakistan"}
+# print(myDict["gender"])
+
+# for i in myDict:
+#     print( f"my {i} : {  myDict[i]}")'
+# print(myDict.values())
+# print(myDict.keys())
+# print(myDict.items())
+# print(myDict.get("name"))
+
+# for i in myDict:
+#     print(myDict[i])
+
+
+
+# a=["ali","khan","alia","ali"]
+# b=["ali","hussain","karim","rahat"]
+# c=["arif","hussaini","karima","rahat"]
+# d=["aliza","hassan","aliyar","rahat"]
+# e=["karim","hussaini","karia","mubeen"]
+# f=["aliyar","hussaini","karima","rahat"]
+# g=["alza","heni","karima","rahman"]
+# for k,j,l,m,n,b,v in zip(a,b,c,d,e,f,g):
+#     print(k,j,l,m,n,b,v)
+
+
+
+# a=66.
+# print(math.ceil(a))
+
+
+
+
+# class Friends:
+#     def __init__(self,friend_one,frined_two):
+#         self.friend_one=friend_one
+#         self.friend_two=frined_two
+#     def show_names(self):
+#         print(f"this is friend one is : {self.friend_one} and this is friend two :{self.friend_two}")
+#     def update_names(self,friend_one=None,friend_two=None):
+#         if friend_one:
+#             self.friend_one=friend_one
+#             print("friend one name is update succcessfully")
+#         if friend_two:
+#             self.friend_two=friend_two
+#             print("friend two name is update succcessfully")
+#         else:
+#             "you enter the empty name"
+
+# friends=Friends("irfan","sunail")
+# friends.show_names()
+# friends.update_names(friend_two="muhammad")
+# friends.show_names()
+
+
+        
