@@ -641,7 +641,25 @@ import random
 # names=["arif","hussain","khan","arif","hussain","aliza","karim","aliza"]
 # random.shuffle(names)
 # print(names)
-import random
-names=["arif","hussain","khan","aliza"]
-random.shuffle(names)
-print(names)
+# import random
+# names=["arif","hussain","khan","aliza"]
+# random.shuffle(names)
+# print(names)
+
+
+
+# import datetime
+# date=datetime.datetime.now()
+# mydate=date.strftime("%M")
+# print(mydate)
+
+
+names =["arif","hussain","khan","ali","hussain"]
+
+try:
+    for i in names:
+        print(i)
+except ValueError as e:
+    print("smth is going wrong",e)
+finally:
+    print("congratualtions")
