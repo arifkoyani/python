@@ -654,12 +654,54 @@ import random
 # print(mydate)
 
 
-names =["arif","hussain","khan","ali","hussain"]
+# names =["arif","hussain","khan","ali","hussain"]
+# num=5
 
-try:
-    for i in names:
-        print(i)
-except ValueError as e:
-    print("smth is going wrong",e)
-finally:
-    print("congratualtions")
+# try:
+#     for i in names:
+#         print(i)
+# except ValueError as e:
+#     print("smth is going wrong",e)
+# finally:
+#     print("congratualtions")
+
+
+# try:
+#     age = int(input("Enter age: "))
+#     if age < 18:
+#         raise ValueError("You must be 18 or older!")
+# except ValueError as e:
+#     print(e)
+# else:
+#     print("this is done you are older")
+
+# numbers=[0,1,2,3,4,5,6,7,8,9,10]
+# print(numbers[::4]) 
+#[::jump]
+
+# # output=0,4,8
+# numbers=[0,1,2,37,4,5,6,7,8,9,10]
+# print(numbers[1:4]) 
+# [start::end]
+
+# output=1,4,8
+# numbers=[0,1,2,37,74,5,6,7,8,9,10]
+# print(numbers[4::4]) 
+# [start::jump]
+# jump four starting from 0
+# output=74,8
+
+
+# def print_all(*args,**kwargs):
+#     print("list:",args)
+#     print("dic:",kwargs)
+
+# print_all(23,2234,24,234,name="arif",lname="hussain")
+
+
+
+def list_and_dic(*args,**kwargs):
+    print("list",args)
+    print("mydictionary",kwargs)
+   
+list_and_dic(24,234,234,2342,2,342,4,name="hussain",age=66,city="hunza")
