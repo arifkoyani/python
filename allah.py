@@ -527,5 +527,121 @@ import math
 # friends.update_names(friend_two="muhammad")
 # friends.show_names()
 
+# names={"a":8,"b":7}
+# # del names["a"]
+# # names.update(a="ali")
 
-        
+# print(names)
+
+# a=[4,5,6,7,]
+# b=["arif","hussain","ali","khan"]
+# for i,k in zip(a,b):
+#     print(f"numbers :{i} and names are :{k}")
+
+
+# names="this is my name arif"
+# mynamelist=names.split()
+# print(mynamelist)
+
+# mydic={"name":"arif"}
+# dict.mydic(name="hussain")
+# print(mydic)
+
+# numbers=["arif","hussain","khan","mubeen"]
+# numbers.delete("arif")
+# print(numbers)
+# import math
+# print(math.factorial(5 ))
+
+import random
+
+
+# print(random.randint(44,99))
+
+
+# l=("arif","hussain","khan","aliza")
+# name=random.choice(l)
+# print(name)
+
+
+# numbers=random.uniform(4,9)
+# print(numbers)
+
+
+# lists=[446,46,56,456,46,456,45,64]
+# random.shuffle(lists)
+# print(lists)
+
+# num=random.randint(4,5)
+# print(num)
+
+# name=["name","ali","khan","hussain","aliza","bulbul"]
+# random.shuffle(name)
+# print(name)
+
+
+
+# class Names:
+#     def __init__(self,father_name,mother_name):
+#         self.father_name=father_name
+#         self.mother_name=mother_name
+#     def show_names(self):
+#         print(f"mother : {self.mother_name} and father : {self.father_name}")
+#     def update_names(self,father_name=None,mother_name=None):
+#         if father_name:
+#             self.father_name=father_name
+#             print("Father name is update successfully")
+#         if mother_name:
+#             self.mother_name=mother_name
+#             print("Mother name is update successfully")
+
+# family=Names("musa","bibi")
+# family.show_names()
+# family.update_names(father_name="khan")
+# family.show_names()
+
+
+# import datetime
+# x=datetime.datetime.now()
+# m=x.strftime("%H")
+# print(m)
+import random
+# mynum=int(input("Enter a guess number : "))
+# computer=random.randrange(0,100)
+
+# if mynum>computer:
+#     print(f"your number is Greater then computer Gueess No : {computer}")
+# elif computer>mynum:
+#     print(f"your number is less then computer guess No which is :{computer}") 
+# else:
+#    print(f"Congratulations your guess No is exact same as Computer")
+
+
+# human_guess=str(input("Enter you Bid"))
+# items=["rock","paper","scissor"]
+# computer_guess=random.choice(items)
+
+# if computer_guess==human_guess:
+#     print("congratulations You Bid")
+# elif 
+
+# import json
+# names='{"name":"hussain","age":55}'
+# f=json.loads(names)
+# print(f) 
+
+# name="arif"
+# last="hussain"
+# print(name,end=" | ")
+# print(last)
+
+
+
+# import random
+# names=["arif","hussain","khan","arif","hussain","aliza","karim","aliza"]
+# random.shuffle(names)
+# print(names)
+import random
+names=["arif","hussain","khan","aliza"]
+random.shuffle(names)
+print(names)
