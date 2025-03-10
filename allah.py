@@ -808,12 +808,31 @@ import random
 # a=[x+4 for x in range(40)]
 # b=[45,56,445,445,4]
 # a[0].update("hussain")
-numbers=["hussain","ali","karim","obaid","hussain","aliza"]
 # my_list=list(map(lambda x:x*2,numbers))
 # print(my_list)
 # double =list(map(lambda x:x*4,numbers))
 # print(double)
 # even=list((lambda x:x%2==0,numbers))
-for index , f in enumerate(numbers,start=2):
-    print(F"this is index : {index} and this is its item : {f}")
- 
+# for index , f in enumerate(numbers,start=2):
+# #     print(F"this is index : {index} and this is its item : {f}")
+# print("this is done", end=" | ")
+# print("this is done")
+
+
+# help(math)
+# import numpy as np
+
+# nums =np.random.rand(4,45)
+# print(nums)
+
+# file=open("name.text","w")
+# for i in range(40000):
+#     file.write(f"This is my Num : {i}  \n ")
+numbers=["hussain","ali","karim","obaid","hussain","aliza"]
+def add_eye(name):
+    return name+"i"
+new_list=list(map(lambda x:x+"i",numbers))
+new_names=list(map(add_eye,numbers))
+print(new_names)
+    
+
