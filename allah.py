@@ -700,8 +700,120 @@ import random
 
 
 
-def list_and_dic(*args,**kwargs):
-    print("list",args)
-    print("mydictionary",kwargs)
+# def list_and_dic(*args,**kwargs):
+#     print("list",args)
+#     print("mydictionary",kwargs)
    
-list_and_dic(24,234,234,2342,2,342,4,name="hussain",age=66,city="hunza")
+# list_and_dic(24,234,234,2342,2,342,4,name="hussain",age=66,city="hunza")
+
+# list=[x**4 for x in range(40)]
+# print(list)
+# # list=[]
+# # for i in range(40):
+# #     list.append(i*2)
+# # print(list)
+# price=5000
+# car=price
+# print(car)
+# price=7000
+# print(price)
+
+
+# numbers=[1,8,10,4,6,9,5,0,8,9,5,9]
+# num=numbers[::6]
+# print(num)
+# numbers=[0,1,2,37,74,5,6,7,8,9,10]
+# print(numbers[::4]) 
+# 0,74,8
+
+
+# num=55
+# try:
+#     if num<=18:
+#         raise ValueError("you must be greater the I8")
+#         # floor division operator
+# except ValueError as e :
+#     print("this is eeror ",e)
+# else:
+#     print("Welcome")
+
+
+# list=[]
+# for i in range(40):
+#     list.append(i)
+# print(list)
+# list=[x*4 for x in range(40)]
+# print(list)
+
+# import datetime
+# date=datetime.datetime.now()
+# year=date.strftime("%Y")
+# print(year)
+# import random
+# numbers=random
+# print(numbers)
+# list=["airf","aliza","karim"]
+# del list[0]
+# print(list)
+# a=[0,1,2,3,4,5,6,7,8,9,10]
+# b=a[::3]
+# print(b)
+
+# a=[0,1,2,3,4,5,6,7,8,9,10]
+# b=a[1:3]
+# print(b)
+
+# a=[0,1,2,3,4,5,6,7,8,9,10]
+# b=a[3::2]
+# print(b)
+
+# a=[0,1,2,3,4,5,6,7,8,9,10]
+# b=a[4:]
+# print(b)
+
+
+# a=[0,1,2,3,4,5,6,7,8,9,10]
+# b=a[:6]
+# print(b)
+
+# a=[0,1,2,3,4,5,6,7,8,9,10]
+# b=a[2:9:3]
+# print(b)
+
+
+# try:
+#     file = open("../elif.rtf", "r")
+#     content = file.read()
+#     print(len(content))
+# except FileNotFoundError:
+#     print("File not found!")
+# finally:
+#     print("Closing file...")  
+#     file.close()
+
+
+# class DemoClass:
+#     a=44
+# DemoClas=DemoClass()
+# print(DemoClas.a)
+
+# class Math:
+#     @staticmethod
+#     def add(x, y):
+#         return x + y
+
+# print(Math.add(3, 5))  # Output: 8
+
+
+# a=[x+4 for x in range(40)]
+# b=[45,56,445,445,4]
+# a[0].update("hussain")
+numbers=["hussain","ali","karim","obaid","hussain","aliza"]
+# my_list=list(map(lambda x:x*2,numbers))
+# print(my_list)
+# double =list(map(lambda x:x*4,numbers))
+# print(double)
+# even=list((lambda x:x%2==0,numbers))
+for index , f in enumerate(numbers,start=2):
+    print(F"this is index : {index} and this is its item : {f}")
+ 
