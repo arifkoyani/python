@@ -970,3 +970,66 @@ import random
 # print(enum.father.value)
 # print(enum.mother.value)
 # print(enum.age.value)
+
+
+
+
+# a,*b,c=[1,2,3,4,5,6,7,8,9,10]
+# print(a)
+# # a=1
+# # c=10
+# # b=2,3,4,5,6,7,8,9
+# print(b)
+
+# _,_,*a=[1,2,3,4,5,6,7,8,9,10,11,12]
+# # iteratable obects are thoese which can iterate over the loob
+# # [3,4,5,6,7,8,9,10,11,12]
+# print(a)
+
+# dic1={"name":"hussain","age":44,"city":"hunza","nation":"pakistan"}
+# dic2={"name":"karm","age":33,"system":23}
+# merge_dic={**dic1,**dic2}
+# print(len(dic1))
+# if True:
+#     pass
+# elif True:
+#     pass
+# else:
+#     pass
+
+# import threading
+
+# def interval_function():
+#     print("This runs every 2 seconds!")
+#     threading.Timer(2, interval_function).start()  # Recursively calls itself
+
+# interval_function()
+# my_set = {1, "2", "3","hussain","karim", 4}
+# print(my_set)
+
+# name=["arif","hussain","khan"]
+# nam=["hussain","ali","aliyar","laptop"]
+# name.extend(nam)
+# print(name)
+
+
+name="ali"
+# result=f"{name}" if name=="ali" else "no name"
+# print(result)
+
+# numbers="124312-123123"
+# new=numbers.replace("3","ali")
+# print(new)
+# print(name.find("a"))
+
+# addition assignent operator 
+# a+=3
+
+from enum import Enum
+class enum(Enum):
+    age=18
+    city="hunza"
+    father_name="musa khan"
+    mother_name="bano"
+
+print(enum.age.value)
