@@ -1025,11 +1025,22 @@ name="ali"
 # addition assignent operator 
 # a+=3
 
-from enum import Enum
-class enum(Enum):
-    age=18
-    city="hunza"
-    father_name="musa khan"
-    mother_name="bano"
+# from enum import Enum
+# class enum(Enum):
+#     age=18
+#     city="hunza"
+#     father_name="musa khan"
+#     mother_name="bano"
 
-print(enum.age.value)
+# print(enum.age.value)
+
+
+
+# numbers=[2,2,4,2,4,3,5]
+# # double=list(map(lambda x:x**2,numbers))
+# # print(double)
+# for index,i in enumerate(numbers):
+#     print(f"this is index {index} and this is element {i}")
+
+name="j"
+print(name)
