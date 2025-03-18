@@ -1138,8 +1138,12 @@ name="ali"
 #         print(keys)
 # Details(name="hussan",age=23,city="hunssaini")
 
-def Details(**kwargs):
-    print(type(kwargs))
-    for values in kwargs.values():
-        print(values)
-Details(name="hussan",age=23,city="hunssaini")
+# def Details(**kwargs):
+#     print(type(kwargs))
+#     for values in kwargs.values():
+#         print(values)
+# Details(name="hussan",age=23,city="hunssaini")
+grades=[23,23,4,23,42,42,53,46,45,67,64,5,64,53,4,5,3,45]
+even_numbers=[even for even in grades if even%==0]
+pass_grades=[x  for x in grades if x>33]
+
