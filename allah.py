@@ -1042,5 +1042,78 @@ name="ali"
 # for index,i in enumerate(numbers):
 #     print(f"this is index {index} and this is element {i}")
 
-name="j"
-print(name)
+# name="j"
+# print(name)
+
+
+# for i in  reversed(range(1,10)):
+#     print(i)
+
+# import time
+# time.sleep(5)
+# numbers="2784602836427836402764"
+# length=len(numbers)
+# for i in numbers:
+#          print(i ,end=" | ")
+
+# for i in reversed(range(5)):
+#     time.sleep(1)
+#     print(i)
+
+
+# for i in range(3):
+#     for x in range(5):
+#         print("hello",end=" | ")
+#     print("Hey" ,end="")
+
+# numbers="12,12,123,123,123,1,231,2,12,1,231,23,12,312,31,23"
+# new=numbers.find("129")
+# print(new)
+
+# foods=[]
+# prices=[]
+# total=0
+# while True:
+#     food=input("Enter the food you Buy (q to exit)")
+#     if food.lower()=="q":
+#         break
+#     else:
+#         price=float(input(f"enter the price of the food {food} $"))
+#         foods.append(food)
+#         prices.append(price)
+
+# print("________you Total Bill_______")
+# for f,p, in zip(foods,prices):
+#     print(f"food :{f} and ${p}")
+#     total+=p
+# print(f"total price Net Bill: ${total}")
+# import time
+
+# time.sleep(2)
+# print("hell")
+
+# menus={"name":"hussain","age":23,"city":"hunza","number":"03010104990"}
+# for i ,k in menus.items():
+#     print(f"{i:10}{k}")
+
+
+# menu={"pizza":"3.00","nachos:":"4.40","popcon":"23","chips":"1.00","soda":"2.00","fries":"2.50","preztel":"4.90"}
+
+# foods=[]
+# prices=[]
+# total=0
+# while True:
+#     food=input("Enter the food you Buy (q for Exit)")
+#     if food.lower()=="q":
+#         break
+#     price=float(input(f"enter the Price of {food}"))
+
+
+
+import time
+def count(end,start=0):
+     for x in reversed(range(start,end)):
+        time.sleep(0.0000000000000991)
+        print(x)
+     print("Done")
+count(10099999999999999990)
