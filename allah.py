@@ -1110,10 +1110,24 @@ name="ali"
 
 
 
-import time
-def count(end,start=0):
-     for x in reversed(range(start,end)):
-        time.sleep(0.0000000000000991)
-        print(x)
-     print("Done")
-count(10099999999999999990)
+# import time
+# def count(end,start=0):
+#      for x in reversed(range(start,end)):
+#         time.sleep(0.0000000000000991)
+#         print(x)
+#      print("Done")
+# count(10090)
+
+# def hello(name,title,first,last):
+#     print(name,title,first,last)
+
+
+# hello("arif","software engineer","arif","hussain")
+
+def sum(*args):
+    total=0
+    for arg in args:
+        total+=arg
+    return total
+
+print(sum(12,2,34,34,3,35,43,423,2))
