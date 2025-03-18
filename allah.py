@@ -1124,10 +1124,22 @@ name="ali"
 
 # hello("arif","software engineer","arif","hussain")
 
-def sum(*args):
-    total=0
-    for arg in args:
-        total+=arg
-    return total
+# def sum(*args):
+#     total=0
+#     for arg in args:
+#         total+=arg
+#     return total
 
-print(sum(12,2,34,34,3,35,43,423,2))
+# print(sum(12,2,34,34,3,35,43,423,2))
+
+# def Details(**kwargs):
+#     print(type(kwargs))
+#     for keys in kwargs.keys():
+#         print(keys)
+# Details(name="hussan",age=23,city="hunssaini")
+
+def Details(**kwargs):
+    print(type(kwargs))
+    for values in kwargs.values():
+        print(values)
+Details(name="hussan",age=23,city="hunssaini")
