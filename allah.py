@@ -1156,52 +1156,52 @@ name="ali"
 
 # print(help("math") ,end="")
 
-blance=0
-is_running=True
-def show_blance():
-  print("____blance__")
-  print(f"your blance is {blance}")
-  print("____********__")
-def deposit():
-    amount =float(input("Enter the amout you deposit"))
-    if amount<0:
-        print("invalid amount")
-    else:
-     print(f"your Deposit ${amount}")
-     return amount
+# blance=0
+# is_running=True
+# def show_blance():
+#   print("____blance__")
+#   print(f"your blance is {blance}")
+#   print("____********__")
+# def deposit():
+#     amount =float(input("Enter the amout you deposit"))
+#     if amount<0:
+#         print("invalid amount")
+#     else:
+#      print(f"your Deposit ${amount}")
+#      return amount
 
-def withdraw():
-      amount=float(input("Enter the amount you want to withdraw"))
-      if amount<0:
-        print("invalid amount")
-      else:
-        return amount
-      print(f"you WITHDRAW ${amount}")
-def is_running():
-    print(f"your blance is {blance}")
+# def withdraw():
+#       amount=float(input("Enter the amount you want to withdraw"))
+#       if amount<0:
+#         print("invalid amount")
+#       else:
+#         return amount
+#       print(f"you WITHDRAW ${amount}")
+# def is_running():
+#     print(f"your blance is {blance}")
 
-while is_running:
-    print("____Banking program____")
-    print("1.Show blance")
-    print("2.Deposit")
-    print("3.Withdraw")
-    print("4.Exit")
-    choice=int(input("choice the 1-4"))
-    match choice:
-        case 1:
-            show_blance()
-        case 2:
-            blance+= deposit()
-        case 3:
-            blance-=withdraw()
-        case 4:
-            print("Thank you for using our banking program")
-            is_running=False
+# while is_running:
+#     print("____Banking program____")
+#     print("1.Show blance")
+#     print("2.Deposit")
+#     print("3.Withdraw")
+#     print("4.Exit")
+#     choice=int(input("choice the 1-4"))
+#     match choice:
+#         case 1:
+#             show_blance()
+#         case 2:
+#             blance+= deposit()
+#         case 3:
+#             blance-=withdraw()
+#         case 4:
+#             print("Thank you for using our banking program")
+#             is_running=False
 
-        case _:
-            print("invalid choice")
+#         case _:
+#             print("invalid choice")
 
-# totall=500
-# obtain=450
-# percentage=obtain/totall*100
-# print(percentage)
+totall=500
+obtain=450
+percentage=obtain/totall*100
+print(percentage)
