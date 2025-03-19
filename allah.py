@@ -1143,7 +1143,65 @@ name="ali"
 #     for values in kwargs.values():
 #         print(values)
 # Details(name="hussan",age=23,city="hunssaini")
-grades=[23,23,4,23,42,42,53,46,45,67,64,5,64,53,4,5,3,45]
-even_numbers=[even for even in grades if even%==0]
-pass_grades=[x  for x in grades if x>33]
+# grades=[23,23,4,23,42,42,53,46,45,67,64,5,64,53,4,5,3,45]
+# even_numbers=[even for even in grades if even%2==0]
+# pass_grades=[x  for x in grades if x>33]
+# grades=[23,23,4,23,42,42,53,46,45,67,64,5,64,53,4,5,3,45]
+# pass_grades=[x  for x in grades if x>33]
+# even_numbers=[even for even in grades if even%2==0]
+# odd_numbers=[odd for odd in grades if odd%2==1]
+# print(f"odd_numbers :{odd_numbers}")
+# print(f"even_numbers :{even_numbers}")
+# print(f"pass_grades :{pass_grades}")
 
+# print(help("math") ,end="")
+
+blance=0
+is_running=True
+def show_blance():
+  print("____blance__")
+  print(f"your blance is {blance}")
+  print("____********__")
+def deposit():
+    amount =float(input("Enter the amout you deposit"))
+    if amount<0:
+        print("invalid amount")
+    else:
+     print(f"your Deposit ${amount}")
+     return amount
+
+def withdraw():
+      amount=float(input("Enter the amount you want to withdraw"))
+      if amount<0:
+        print("invalid amount")
+      else:
+        return amount
+      print(f"you WITHDRAW ${amount}")
+def is_running():
+    print(f"your blance is {blance}")
+
+while is_running:
+    print("____Banking program____")
+    print("1.Show blance")
+    print("2.Deposit")
+    print("3.Withdraw")
+    print("4.Exit")
+    choice=int(input("choice the 1-4"))
+    match choice:
+        case 1:
+            show_blance()
+        case 2:
+            blance+= deposit()
+        case 3:
+            blance-=withdraw()
+        case 4:
+            print("Thank you for using our banking program")
+            is_running=False
+
+        case _:
+            print("invalid choice")
+
+# totall=500
+# obtain=450
+# percentage=obtain/totall*100
+# print(percentage)
